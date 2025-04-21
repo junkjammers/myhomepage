@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS (MIT License) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --bs-primary: #4CAF50;
+      --bs-secondary: #555;
+      --bs-light: #f8f9fa;
+      --bs-dark: #212529;
+    }
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: var(--bs-light);
+      color: var(--bs-dark);
+    }
+    .navbar {
+      background: var(--bs-primary);
+    }
+    .navbar-nav .nav-link {
+      color: #fff;
+      transition: color .3s;
+    }
+    .navbar-nav .nav-link:hover {
+      color: var(--bs-secondary);
+    }
+    section {
+      padding: 60px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .hero {
+      background: var(--bs-primary);
+      color: #fff;
+      text-align: center;
+      padding: 120px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">MyName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome!</h1>
+      <p>A stylish & simple portfolio template.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>This template is based on the “Personal” theme by BootstrapMade.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-4">Project 1</div>
+        <div class="col-md-4">Project 2</div>
+        <div class="col-md-4">Project 3</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer & Attribution -->
+  <footer class="text-center py-4">
+    <p>&copy; 2025 MyName</p>
+    <p>Based on “Personal” by BootstrapMade (MIT License)</p>
+  </footer>
+
+  <!-- Bootstrap JS (MIT License) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
